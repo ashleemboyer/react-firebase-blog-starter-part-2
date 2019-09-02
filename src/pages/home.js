@@ -22,6 +22,7 @@ const Home = () => {
 
         const newestFirst = posts.reverse();
         setBlogPosts(newestFirst);
+        setLoading(false);
       });
   }
   
